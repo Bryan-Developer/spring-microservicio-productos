@@ -17,8 +17,3 @@ spring:
         web-allow-others: false
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
-management:
-   endpoints:
-      web:
-         exposure:
-            include: '*'
